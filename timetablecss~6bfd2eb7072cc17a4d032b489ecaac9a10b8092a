@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time table
+    </title>
+    <style>
+       table,th,tr{
+            border-collapse: collapse;border-color: blue;
+        }
+        .cc{
+            border: double 2px red;
+        }
+        .cx{
+            border: double 3px;
+            border-bottom: double 3px ;
+        }
+      
+        .ll{
+            font-size: 6px;
+        }
+    </style>
+</head>
+<body>
+    <table border="n" class="cx"><tr>
+        <th>PERIOD</th>
+        <th>TIME</th>
+        <th>MON</th>
+        <th>TUE</th>
+        <th>WED</th>
+        <th>THU</th>
+        <th>FRI</th>
+        <th>SAT</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>9.15</td>
+        <td>MC</td>
+        <td>DC</td>
+        <td>PC</td>
+        <td>AC</td>
+        <td>JAVA</td>
+        <td rowspan="4"></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>10.15</td>
+        <td rowspan="2" class="ll">Python-b1 <br><hr> dsp-b2 <br><hr>MC-B3<br><hr> CN-B4</td>
+        <td>PC</td>
+        <td>MC</td>
+        <td>DS</td>
+        <td>RM</td>
+       
+
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>11.15</td>
+        <td>DSP</td>
+        <td rowspan="2" class="ll">Python-b1 <br><hr> dsp-b2 <br><hr>MC-B3<br><hr> CN-B4</td>
+        <td>RM</td>
+        <td>MWE</td>
+        
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>12.15</td>
+        <td>DS</td>
+        <td>PYTHON</td>
+        <td>PC</td>
+        <!-- <td>AC</td> -->
+        <td>JAVA</td>
+       
+    </tr>
+   <tr>
+    <th colspan="100%" class="cc">RECESS</th>
+   </tr>
+    <tr>
+        <td>5</td>
+        <td>1.15</td>
+        <td>CN</td>
+        <td rowspan="2" class="ll">Python-b1 <br><hr> dsp-b2 <br><hr>MC-B3<br><hr> CN-B4</td>
+        <td rowspan="2" class="ll">Python-b1 <br><hr> dsp-b2 <br><hr>MC-B3<br><hr> CN-B4</td>
+        <td rowspan="2" class="ll">Python-b1 <br><hr> dsp-b2 <br><hr>MC-B3<br><hr> CN-B4</td>
+        <td rowspan="2" class="ll">Python-b1 <br><hr> dsp-b2 <br><hr>MC-B3<br><hr> CN-B4</td>
+        <td rowspan="3" ></td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>2.15</td>
+        <td>DSP</td>
+        <!-- <td>OS</td>
+        <td>RM</td>
+        <td>CN</td>
+        <td>DBMS</td> -->
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>3.15</td>
+        <td>MWE</td>
+        <td>VLSI</td>
+        <td>BEEE</td>
+        <td>EM</td>
+        <td>EMFT</td>
+    </tr>
+
+
+    </table>
+</body>
+</html>
